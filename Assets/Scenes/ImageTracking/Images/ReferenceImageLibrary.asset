@@ -16,22 +16,22 @@ MonoBehaviour:
   m_GuidHigh: 11338665651040755373
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5016958786705360471
-      m_GuidHigh: 16230663542420254398
+      m_GuidLow: 4821747418119064130
+      m_GuidHigh: 4889142346263283365
     m_SerializedTextureGuid:
-      m_GuidLow: 13376904732122594302
-      m_GuidHigh: 9092780694226910889
-    m_Size: {x: 0.09028065, y: 0.191}
+      m_GuidLow: 8076262273507488734
+      m_GuidHigh: 5353406362478187835
+    m_Size: {x: 0.09, y: 0.090156525}
     m_SpecifySize: 1
-    m_Name: CHOCO
-    m_Texture: {fileID: 2800000, guid: e068bbfe4ffab9a4a9beeca3dd0b307e, type: 3}
+    m_Name: atari
+    m_Texture: {fileID: 2800000, guid: 754d73dea5bf70143b15d41db91e4b4a, type: 3}
   - m_SerializedGuid:
-      m_GuidLow: 4789339771042635496
-      m_GuidHigh: 14607148049421185460
+      m_GuidLow: 4828358038145228639
+      m_GuidHigh: 206042673693190279
     m_SerializedTextureGuid:
-      m_GuidLow: 15295465338771697064
-      m_GuidHigh: 3371501972648376728
-    m_Size: {x: 0.115, y: 0.103046596}
+      m_GuidLow: 9323606208485330041
+      m_GuidHigh: 15728842037883696971
+    m_Size: {x: 0.07, y: 0.07154749}
     m_SpecifySize: 1
-    m_Name: bonduelle
-    m_Texture: {fileID: 2800000, guid: cfc96da868afd44498393c5f2efbc92e, type: 3}
+    m_Name: IMG20200909162139
+    m_Texture: {fileID: 2800000, guid: b2650c791a7281644bf7499c7f1248da, type: 3}

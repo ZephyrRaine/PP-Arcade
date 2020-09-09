@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5438900029218683827
+  m_GuidHigh: 11338665651040755373
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5016958786705360471
+      m_GuidHigh: 16230663542420254398
+    m_SerializedTextureGuid:
+      m_GuidLow: 13376904732122594302
+      m_GuidHigh: 9092780694226910889
+    m_Size: {x: 0.09028065, y: 0.191}
+    m_SpecifySize: 1
+    m_Name: CHOCO
+    m_Texture: {fileID: 2800000, guid: e068bbfe4ffab9a4a9beeca3dd0b307e, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4789339771042635496
+      m_GuidHigh: 14607148049421185460
+    m_SerializedTextureGuid:
+      m_GuidLow: 15295465338771697064
+      m_GuidHigh: 3371501972648376728
+    m_Size: {x: 0.115, y: 0.103046596}
+    m_SpecifySize: 1
+    m_Name: bonduelle
+    m_Texture: {fileID: 2800000, guid: cfc96da868afd44498393c5f2efbc92e, type: 3}

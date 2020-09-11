@@ -72,4 +72,12 @@ public class InterfaceManager : MonoBehaviour
         
     }
 
+    public void HidePanels()
+    {
+        panelsTransform.gameObject.SetActive(false);
+    }
+    public void ShowPanels()
+    {
+        panelsTransform.gameObject.SetActive(true);
+    }
 }

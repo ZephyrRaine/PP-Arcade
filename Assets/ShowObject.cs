@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class ShowObject : MonoBehaviour
 {
-    public GameObject product;
-    public void ToggleProductVisibility()
+    public void ToggleProductVisibility(GameObject product)
     {
         product.SetActive(!product.activeSelf);
     }

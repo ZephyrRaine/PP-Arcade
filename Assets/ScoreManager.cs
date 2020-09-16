@@ -39,7 +39,7 @@ public class ScoreManager : MonoBehaviour
 
     public void AddScore()
     {
-        scoresReal = new List<Score>(scoresModel);
+        //scoresReal = new List<Score>(scoresModel);
 
         Score s = new Score();
         s.name = popUpScore.GetName();

@@ -33,5 +33,5 @@ MonoBehaviour:
       m_GuidHigh: 6108505395553081177
     m_Size: {x: 0.09, y: 0.08955}
     m_SpecifySize: 1
-    m_Name: logo_2
+    m_Name: mario_kart
     m_Texture: {fileID: 2800000, guid: c9fa5c8d5c1fd4c459977f024bc5c554, type: 3}

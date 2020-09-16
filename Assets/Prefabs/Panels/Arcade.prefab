@@ -142,7 +142,7 @@ GameObject:
   - component: {fileID: 7390365334552681746}
   - component: {fileID: 9121710206877830704}
   m_Layer: 5
-  m_Name: MK8
+  m_Name: Arcade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -782,7 +782,7 @@ GameObject:
   - component: {fileID: 7708225202853845505}
   - component: {fileID: 7441297339812032651}
   m_Layer: 5
-  m_Name: Appreil Photo
+  m_Name: Appareil Photo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

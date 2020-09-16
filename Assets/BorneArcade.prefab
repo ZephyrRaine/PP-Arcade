@@ -1090,7 +1090,7 @@ GameObject:
   - component: {fileID: 3312728602301253200}
   - component: {fileID: 6621684422680790350}
   m_Layer: 0
-  m_Name: ImageInfoPrefab
+  m_Name: BorneArcade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1189,7 +1189,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6eabb9559b8fe3c48872573425984e7a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 828020f996b9058469e749946bb1b472, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1780,7 +1780,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4977097160189372067}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2923892722151466278}
+        m_MethodName: FindAndActivateScoreManager
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2923892722151466278
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class PopUpScore : MonoBehaviour
 {
-    public TMP_InputField nameObject;
     public TMP_InputField arcadeScore;
     public TMP_InputField marioKartMinutes;
     public TMP_InputField marioKartSeconds;
@@ -13,9 +12,17 @@ public class PopUpScore : MonoBehaviour
 
     public bool isMarioKart;
 
+    private void OnEnable()
+    {
+     arcadeScore.text = "";
+     marioKartMinutes.text = "";
+     marioKartSeconds.text = "";
+     marioKartMilliseconds.text = "";
+}
+
     public string GetName()
     {
-        return nameObject.text;
+        return "Nathalie Ponchard";
     }
 
     public string GetScore()

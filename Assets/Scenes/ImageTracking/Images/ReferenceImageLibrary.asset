@@ -25,3 +25,13 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: atari
     m_Texture: {fileID: 2800000, guid: 754d73dea5bf70143b15d41db91e4b4a, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4864529092933996477
+      m_GuidHigh: 8445712377478621607
+    m_SerializedTextureGuid:
+      m_GuidLow: 15331480323078380685
+      m_GuidHigh: 6108505395553081177
+    m_Size: {x: 0.09, y: 0.08955}
+    m_SpecifySize: 1
+    m_Name: logo_2
+    m_Texture: {fileID: 2800000, guid: c9fa5c8d5c1fd4c459977f024bc5c554, type: 3}

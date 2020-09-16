@@ -12,8 +12,10 @@ public struct Score
 
 public class ScoreManager : MonoBehaviour
 {
+    public bool isMarioKart;
     public GameObject prefab;
-    public List<Score> scores;
+    public List<Score> scoresModel;
+    List<Score> scoresReal;
     public Transform scoresTransform;
     public PopUpScore popUpScore;
 
@@ -37,34 +39,41 @@ public class ScoreManager : MonoBehaviour
 
     public void AddScore()
     {
+        scoresReal = new List<Score>(scoresModel);
+
         Score s = new Score();
         s.name = popUpScore.GetName();
         s.score = popUpScore.GetScore();
-        scores.Add(s);
+        scoresReal.Add(s);
         ManageScores();
         popUpScore.gameObject.SetActive(false);
     }
 
     private void Start()
     {
+        scoresReal = new List<Score>(scoresModel);
         ManageScores();
     }
 
     public int SortByScore(Score score1, Score score2)
     {
-        return score2.score.CompareTo(score1.score);
+        if(isMarioKart)
+            return score1.score.CompareTo(score2.score);
+        else
+            return score2.score.CompareTo(score1.score);
+
     }
 
     public void ManageScores()
     {
-        scores.Sort(SortByScore);   
+        scoresReal.Sort(SortByScore);   
 
         for(int i = 0; i < scoresTransform.childCount; i++)
         {
             var t = scoresTransform.GetChild(i);
             t.GetChild(0).GetComponent<TMP_Text>().text = GetPosFromIndex(i);
-            t.GetChild(1).GetComponent<TMP_Text>().text = scores[i].name;
-            t.GetChild(2).GetComponent<TMP_Text>().text = scores[i].score;
+            t.GetChild(1).GetComponent<TMP_Text>().text = scoresReal[i].name;
+            t.GetChild(2).GetComponent<TMP_Text>().text = scoresReal[i].score;
         }
     }
 }

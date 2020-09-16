@@ -22,7 +22,7 @@ public class PopUpScore : MonoBehaviour
 
     public string GetName()
     {
-        return "Nathalie Ponchard";
+        return FindObjectOfType<PseudoHandler>().pseudo;
     }
 
     public string GetScore()

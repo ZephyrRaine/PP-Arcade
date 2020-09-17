@@ -60,7 +60,10 @@ public class ScoreManager : MonoBehaviour
         if(isMarioKart)
             return score1.score.CompareTo(score2.score);
         else
-            return score2.score.CompareTo(score1.score);
+        {
+
+            return int.Parse(score2.score).CompareTo(int.Parse(score1.score));
+        }
 
     }
 

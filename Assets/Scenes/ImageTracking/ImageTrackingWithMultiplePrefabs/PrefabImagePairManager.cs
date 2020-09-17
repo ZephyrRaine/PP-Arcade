@@ -97,6 +97,11 @@ namespace UnityEngine.XR.ARFoundation.Samples
                 trackedImage.transform.localScale = new Vector3(minLocalScalar, minLocalScalar, minLocalScalar);
                 AssignPrefab(trackedImage);
             }
+
+            foreach (var trackedImage in eventArgs.updated)
+            {
+                trackedImage.transform.rotation = Quaternion.Euler(0f, trackedImage.transform.rotation.eulerAngles.y, 0f);
+            }
         }
 
         void AssignPrefab(ARTrackedImage trackedImage)

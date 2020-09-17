@@ -17,6 +17,6 @@ public class ShowObject : MonoBehaviour
 
     public void Sloko()
     {
-        FindObjectOfType<ARTrackedImageManager>().enabled = false;
+        //FindObjectOfType<ARTrackedImageManager>().enabled = false;
     }
 }

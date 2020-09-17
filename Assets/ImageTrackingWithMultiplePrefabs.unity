@@ -8747,21 +8747,21 @@ MonoBehaviour:
   prefab: {fileID: 0}
   scoresModel:
   - name: Suzie Pue
-    score: 48
+    score: 10000
   - name: Colin Machin
-    score: 12
+    score: 7500
   - name: Marie Ternand
-    score: 25
+    score: 5000
   - name: Jeannot Pilo
-    score: 2
+    score: 2500
   - name: Nicolas Monk
-    score: 36
+    score: 1000
   - name: Rey Mysterio
-    score: 17
+    score: 500
   - name: Martin Matin
-    score: 87
-  - name: Nicole Aniston
-    score: 108
+    score: 100
+  - name: Nicole Aleri
+    score: 50
   scoresTransform: {fileID: 1337692822}
   popUpScore: {fileID: 45578813}
 --- !u!114 &1173628914
@@ -11679,21 +11679,21 @@ MonoBehaviour:
   prefab: {fileID: 0}
   scoresModel:
   - name: Colin Machin
-    score: 10:00.000
+    score: 07:00.000
   - name: Suzie Pue
-    score: 11:00.000
+    score: 08:00.000
   - name: Marie Ternand
-    score: 12:00.000
+    score: 09:00.000
   - name: Jeannot Pilo
-    score: 13:00.000
+    score: 10:00.000
   - name: Nicolas Monk
-    score: 14:00.000
+    score: 11:00.000
   - name: Rey Mysterio
-    score: 15:00.000
+    score: 12:00.000
   - name: Martin Matin
-    score: 16:00.000
+    score: 13:00.000
   - name: Nicole Aniston
-    score: 17:00.000
+    score: 14:00.000
   scoresTransform: {fileID: 925792788}
   popUpScore: {fileID: 535859424}
 --- !u!114 &1395441832

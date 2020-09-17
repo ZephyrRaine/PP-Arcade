@@ -1485,7 +1485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PrefabsList:
   - imageGuid: e5a4ca42-49ba-42ea-a5c6-57650fb9d943
-    imagePrefab: {fileID: 3312728602301253215, guid: fdfde83dccf3b56489818bf12deeb410,
+    imagePrefab: {fileID: 3713429024685360226, guid: 74e2f86d287d98143b807a462a5802c9,
       type: 3}
   - imageGuid: c7e24fbd-476f-4382-a7a9-bbf6a8323575
     imagePrefab: {fileID: 3312728602301253215, guid: 5d81b097707c58e4b949537763ba4bbe,

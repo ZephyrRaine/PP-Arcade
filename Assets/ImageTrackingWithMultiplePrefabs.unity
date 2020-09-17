@@ -8746,11 +8746,11 @@ MonoBehaviour:
   isMarioKart: 0
   prefab: {fileID: 0}
   scoresModel:
-  - name: Suzie Pue
+  - name: Bob Gosse
     score: 10000
-  - name: Colin Machin
+  - name: Nathalie Ponchard
     score: 7500
-  - name: Marie Ternand
+  - name: Alfred Hichcoq
     score: 5000
   - name: Jeannot Pilo
     score: 2500
@@ -11678,11 +11678,11 @@ MonoBehaviour:
   isMarioKart: 1
   prefab: {fileID: 0}
   scoresModel:
-  - name: Colin Machin
+  - name: Nathalie Ponchard
     score: 07:00.000
-  - name: Suzie Pue
+  - name: Bob Gosse
     score: 08:00.000
-  - name: Marie Ternand
+  - name: Alfred Hichcoq
     score: 09:00.000
   - name: Jeannot Pilo
     score: 10:00.000

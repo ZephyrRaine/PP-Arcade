@@ -10,13 +10,4 @@ public class ShowObject : MonoBehaviour
         product.SetActive(!product.activeSelf);
     }
 
-    private void Start()
-    {
-        Invoke("Sloko", 2f);
-    }
-
-    public void Sloko()
-    {
-        //FindObjectOfType<ARTrackedImageManager>().enabled = false;
-    }
 }
